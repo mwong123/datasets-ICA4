@@ -53,8 +53,16 @@ LIMIT 1
 
 ![datasets-ICA4](Visualizations/q4.png)
 
-
-
+## Question #5
+What is the lowest sat verbal score from Washington HS?
+```sql
+SELECT sat_verbal, school
+FROM datasets.sat_scores
+WHERE school = 'Washington HS'
+ORDER BY sat_verbal ASC
+LIMIT 1
+```
+![datasets-ICA4](Visualizations/q5.png)
 
 
 
