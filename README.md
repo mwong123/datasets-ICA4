@@ -16,3 +16,18 @@ LIMIT 1
 
 ![datasets-ICA4](Visualizations/q1.png)
 
+## Question #2
+What was the highest math sat score for Petersville highschool?
+
+```sql
+SELECT school, MAX (sat_math) as max
+FROM datasets.sat_scores
+WHERE school = 'Petersville HS'
+GROUP BY sat_math. school
+LIMIT 1
+```
+
+![datasets-ICA4](Visualizations/q2.png)
+
+
+
