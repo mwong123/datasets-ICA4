@@ -14,4 +14,5 @@ ORDER BY Total_score DESC
 LIMIT 1
 ```
 
-![datasets-ICA4]
+![datasets-ICA4](Visualizations/q1.png)
+
